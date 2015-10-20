@@ -15,9 +15,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/javascript/application.js"></script>
 
-  <title></title>
+  <title><%= @title %></title>
 </head>
 <body>
   <%= yield %>
+  <div class="container">
+      <img src="../images/sound-white.jpg" class="img-responsive" alt="Music Wall">
+    </div>
 </body>
 </html>
